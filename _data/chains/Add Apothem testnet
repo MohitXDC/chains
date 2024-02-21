@@ -1,0 +1,24 @@
+{
+  "name": "Apothem Testnet",
+  "chain": "XDC Network",
+  "rpc": ["https://erpc.apothem.network"],
+  "faucets": ["https://faucet.blocksscan.io"],
+  "nativeCurrency": {
+    "name": "test XDC",
+    "symbol": "tXDC",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }],
+  "infoURL": "https://xinfin.org",
+  "shortName": "XDC Network",
+  "chainId": 51,
+  "networkId": 51,
+  "slip44": 1,
+  "explorers": [
+    {
+      "name": "XDC Network",
+      "url": "https://apothem.blocksscan.io/",
+      "standard": "EIP3091"
+    }
+  ]
+}
